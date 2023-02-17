@@ -1,0 +1,29 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{xcolor}
+
+\title{Taller 1}
+\begin{document}
+Dado que la derivada de $f(x_j)$ es dada por \\
+$\frac{d}{dx}f(x_j)=\lim_{h \to 0} \frac{f(x_j+h)-f(x_j)}{h}
+$\\\\
+El termino $f(x+h)$ se puede expandir usando series de taylor tal que\\\\
+$
+f(x+h)=f(x)+hf'(x)+\frac{h^2}{2}f''(x).......$ para $h<<1
+$\\\\
+Igual para $f(x-h)$\\\\
+$
+f(x-h)=f(x)-hf'(x)+\frac{h^2}{2}f''(x).......$ para $h<<1
+$
+Para estimar la segunda derivada se suman los dos desarrollos\\\\
+$f''(x)=\frac{f(x+h)-2f(x)+f(x-h)}{h^2}+O(h^2)$ Lo que para un punto es \\$f''(x)\approx\frac{f(x_{j+1})-2f(x_j)+f(x_{j-1})}{h^2}$ Con orden $O(h^2)
+$\\\\
+
+Para obtener la cuarta derivada continuamos con el mismo proceso para obtener
+$
+f''''(x)\approx\frac{f(x_{j+2})-4f(x_{j+1})+6f(x_j)-4f(x_{j-1})+f(x_{j-2})}{h^4}
+$\\
+El cual tiene orden $O(h^k)$ en donde $k=4$
+\end{document}

@@ -11,6 +11,8 @@ from matplotlib import rc
 import pandas as pd
 import sympy as sym
 import urllib.request
+from tqdm import tqdm
+from time import sleep
 
 url = 'https://raw.githubusercontent.com/asegura4488/Database/main/MetodosComputacionalesReforma/EstrellaEspectro.txt'
 
@@ -102,22 +104,8 @@ Ejercicio 1 2.08
 
 """
 
-"""
-Ejercicio 
 
-"""
 
-"""
-Ejercicio 
 
-"""
 
-"""
-Ejercicio 
 
-"""
-
-"""
-Ejercicio 
-
-"""
