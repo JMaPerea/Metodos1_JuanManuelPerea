@@ -13,7 +13,7 @@ import sympy as sym
 import urllib.request
 
 """
-Ejercicio 
+Ejercicio Derivacion 6
 
 """
 
@@ -39,7 +39,7 @@ for i in x :
     for r in y:
         o=derivar(r, i)
         #print(o)
-        print(o)
+        
         vx.append(o)
         
         
@@ -61,17 +61,4 @@ fig, ax=plt.subplots()
 ax.quiver(x,y,vx,vy)
 
 
-"""
-Ejercicio 
 
-"""
-
-"""
-Ejercicio 
-
-"""
-
-"""
-Ejercicio 
-
-"""
