@@ -98,7 +98,26 @@ plt.axhline(((1+np.sqrt(5))/2),color='r')
 plt.show()
 
 """
-Ejercicio 2.08
+Ejercicio 1 2.08
 
 """
 
+"""
+Ejercicio 
+
+"""
+
+"""
+Ejercicio 
+
+"""
+
+"""
+Ejercicio 
+
+"""
+
+"""
+Ejercicio 
+
+"""
