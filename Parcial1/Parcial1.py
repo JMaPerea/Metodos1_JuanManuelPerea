@@ -71,12 +71,8 @@ def GetAngle(r,R=posR, T=posT):
     a0=np.arctan(v1[0]/v1[1])
     a1=np.arctan(v2[0]/v2[1])
     return a0,a1
-a=GetAngle(root)
+
 print('Angulos',a)
-def Comprobar_snell(a1,n1=1.33):
-    n0=n1*np.sin(a1)
-    return n0
-print(Comprobar_snell(a[1]))
 #print(root)
 
 plt.plot(x,dt)
