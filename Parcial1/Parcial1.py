@@ -72,6 +72,13 @@ def GetAngle(r,R=posR, T=posT):
     a1=np.arctan(v2[0]/v2[1])
     return a0,a1
 
+def snell(ang):
+    return (np.sin(ang[1])/np.sin(ang[0]))
+    
+a=GetAngle(root)
+print(snell(a),'approx',(1/1.33))
+
+
 print('Angulos',a)
 #print(root)
 
